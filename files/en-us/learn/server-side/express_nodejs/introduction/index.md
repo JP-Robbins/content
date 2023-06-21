@@ -55,7 +55,7 @@ The following example creates a web server that listens for any kind of HTTP req
 
    ```js
    // Load HTTP module
-   const http = require("http");
+   const http = require("node:http");
 
    const hostname = "127.0.0.1";
    const port = 8000;
